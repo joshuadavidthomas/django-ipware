@@ -1,3 +1,61 @@
+# 7.0.0 / 7.0.1
+
+Enhance:
+- Up version python-ipware (minimal possible api / compatibility change)
+
+# 6.0.5
+
+Enhance:
+- Add `HTTP_CF_CONNECTING_IP` to list of known ip headers (Adam M.)
+- Remove `HTTP_VIA` header support (unreliable IP information) (@yourcelf)
+- Up-version python-ipware to 2.0.3
+
+# 6.0.4
+
+Enhancement:
+- Add typings (thx: @federicobond)
+
+# 6.0.3
+
+Enhancement:
+- Show in Pypi Python 3.12 is supported (thx: @jrobichaud)
+
+# 6.0.2
+
+Enhancement:
+- Add support for Django 5.0 (thx: @cclauss)
+- Add support for Python 3.12 (thx: @cclauss)
+
+# 6.0.1
+
+Enhancement:
+- Add IPWARE_META_PROXY_COUNT setting + corresponding docs (thx: @mmcclelland1002)
+
+# 6.0.0
+
+Enhancement: (breaking changes)
+
+- Use python-ipware under the hood
+- Minor behavior changes as python-ipware is more accurate
+- Use 5.0.2 if you need the old behavior
+
+# 5.0.2
+
+Enhancement:
+
+- Drop Python 3.7 support
+- Add support for Django 4.2
+- Drop support for Django 4.0
+- Drop support for PyPy
+- Readme updates to encourage users to use `python-ipware` instead of `django-ipware` (thx: rposborne)
+
+# 5.0.0
+
+Enhancement:
+
+- Added support for Python 3.11 (@ccluass - thx)
+- Drop support for Python 3.6, Django 2.2
+
 # 4.0.2
 
 Enhancement:
